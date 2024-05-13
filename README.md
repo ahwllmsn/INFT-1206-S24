@@ -1,6 +1,10 @@
 # INFT-1206-S24
 
+## Class Notes
+
 [HTML Intro](/Class_Notes/HTML/HTML_Intro/index.html)
+
+## Assignments
 
 [Assignment 1](Assignments/Assignment_1/index.html)
 
