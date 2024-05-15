@@ -4,6 +4,8 @@
 
 [HTML Intro](/Class_Notes/HTML/HTML_Intro/index.html)
 
+[Summer Activities Blog Post](/Class_Notes/HTML/HTML_Intro/blog.html)
+
 ## Assignments
 
 [Assignment 1](Assignments/Assignment_1/index.html)
