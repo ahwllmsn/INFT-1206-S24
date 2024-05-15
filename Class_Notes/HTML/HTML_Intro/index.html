@@ -6,7 +6,66 @@
     <title>Intro to HTML</title>
 </head>
 <body>
+    <!--h1 to h6 represent HTML headers of varying sizes-->
     <h1>Intro to HTML</h1>
-    <p>This is our intro to HTML file. Here we will learn all about HTML lists, paragraphs, images, audio/video, tables, and comments.</p>
+    <h2>I am an h2 header</h2>
+    <h3>I am an h3 header</h3>
+    <h4>I am an h4 header</h4>
+    <h5>I am an h5 header</h5>
+    <h6>I am an h6 header</h6>
+    <p>
+        This is our intro to HTML file. Here we will learn all about HTML lists, paragraphs, images, audio/video, tables, and comments.
+    </p>
+    <h5>Homework:</h5>
+    <!--An ordered list will add number to each list item-->
+    <ol>
+        <li>
+            Finish Web Development Assignment 
+        </li>
+        <li>Read About databases</li>
+        <li>Write open source code</li>
+    </ol>
+    <!--An un-ordered list will not use any numbers-->
+    <ul>
+        <li>
+            Finish Web Development Assignment 
+        </li>
+        <li>Read About databases</li>
+        <li>Write open source code</li>
+    </ul>
+    <!--Let's add an image below-->
+    <h2>Image from online source:</h2>
+    <img
+        src="https://www.southernliving.com/thmb/WHH7cdFT3YMJlJN4y7y3lsAKvJ8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gettyimages-114166947-1-268128f97e5c415baede328c1fe32f55.jpg"
+        width="300px"
+        height="auto"
+        alt="Small white"
+    />
+    <h2>Image from a local source:</h2>
+    <img
+        src="./golden_retriever_on_bench.jpg"
+        width="300px"
+        height="auto"
+        alt="Alt text"
+    />
+    <!--Embedding a video-->
+    <h2>Video:</h2>
+    <iframe
+        width="500"
+        height="280"
+        src="https://www.youtube.com/embed/_6VXoxKkTWQ"
+        title="Welcome to Durham College"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+    </iframe>
+    <!--A DIV is an example of a BLOCK element-->
+    <div>This is a div</div>
+    <!--A SPAN is an example of an INLINE element-->
+    <span>This is a span</span>
+    <section>This is a section</section>
+    <header>This is a header</header>
+    <footer>This is a footer</footer>
 </body>
 </html>
