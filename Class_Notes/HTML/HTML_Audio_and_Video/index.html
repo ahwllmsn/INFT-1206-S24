@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video</title>
+</head>
+<body>
+    <h1>HTML Audio and Video</h1>
+    <h2>Video</h2>
+    <p>Here is a video of my dog Penny playing with her favourite toy.</p>
+    <video
+        controls
+        width="500"
+        height="auto"
+        poster="pennyVSDuck.png">
+        <source src="myDogPenny.mp4" type="video/mp4" />
+        <source src="myDogPenny.webm" type="video/webm"/>
+        <p>
+            Your browser doesn't support this video. Here is a <a href="myDogPenny.mp4">link to the video<a/> instead.
+        </p>
+    </video>
+    <h2>Audio</h2>
+    <p>
+        Here is one of my favourite songs for the summertime. It's <a href="https://open.spotify.com/track/4vac5c5wWZ23omHKYwB1fP?si=b58d0c0c5413401a">Twin's Twist by The Sidekicks.</a>
+    </p>
+    <audio
+        controls>
+        <source src="twinsTwistAudio.mp3" type="audio/mp3" />
+        <source src="twinsTwistAudio.ogg" type="audio/ogg" />
+        <p>
+            Your browser doesn't support this audio file. Here is a <a href="twinsTwistAudio.mp3">link to the audio</a> instead.
+        </p>
+    </audio> 
+</body>
+</html>
