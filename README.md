@@ -6,6 +6,8 @@
 
 [Summer Activities Blog Post](/Class_Notes/HTML/HTML_Intro/blog.html)
 
+[Audio and Video Files](/Class_Notes/HTML/HTML_Audio_and_Video/index.html)
+
 ## Assignments
 
 [Assignment 1](Assignments/Assignment_1/index.html)
