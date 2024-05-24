@@ -12,9 +12,9 @@
 
 ### Assignment 1
 
-[Part 1](/Assignments/Assignment_1/Part_1/index.html)
+[Assignment 1 - Part 1](/Assignments/Assignment_1/Part_1/index.html)
 
-[Part 2](/Assignments/Assignment_1/Part_2/index.html)
+[Assignment 1 - Part 2](/Assignments/Assignment_1/Part_2/index.html)
 
 ### Assignment 2
 
