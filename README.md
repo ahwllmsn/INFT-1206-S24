@@ -10,13 +10,25 @@
 
 ## Assignments
 
-[Assignment 1](Assignments/Assignment_1/index.html)
+### Assignment 1
+
+[Part 1](/Assignments/Assignment_1/Part_1/index.html)
+
+[Part 2](/Assignments/Assignment_1/Part_2/index.html)
+
+### Assignment 2
 
 [Assignment 2](Assignments/Assignment_2/index.html)
 
+### Assignment 3
+
 [Assignment 3](Assignments/Assignment_3/index.html)
 
+### Assignment 4
+
 [Assignment 4](Assignments/Assignment_4/index.html)
+
+### Assignment 5
 
 [Assignment 5](Assignments/Assignment_5/index.html)
 
