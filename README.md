@@ -10,6 +10,8 @@
 
 [HTML Tables](/Class_Notes/HTML/HTML_Tables/index.html)
 
+[My DC Timetable](/Class_Notes/HTML/HTML_Tables/timetable.html)
+
 ## Assignments
 
 ### Assignment 1
