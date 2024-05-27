@@ -11,9 +11,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DC Timetable</title>
     <style>
-        table,
+        table tr > td:first-child { 
+            border: none;
+            text-align: right;
+        }
+        table {
+            border-collapse: collapse;
+        }
         th,
         td{
+            border-collapse: collapse;
             text-align: center;
             border: 1px solid #e0e0e0;
             border-collapse: collapse;
@@ -22,6 +29,10 @@
         }
         th{
             background-color: #e0e0e0;
+        }
+        table tr > th:first-child {
+            background-color: unset;
+            border: none;
         }
         td{
             height: 30px;
@@ -41,7 +52,7 @@
             <th>Friday</th>
         </tr>
         <tr>
-            <td></td>
+            <td>8 am</td>
             <td></td>
             <td></td>
             <td></td>
