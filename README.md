@@ -8,6 +8,8 @@
 
 [Audio and Video Files](/Class_Notes/HTML/HTML_Audio_and_Video/index.html)
 
+[HTML Tables](/Class_Notes/HTML/HTML_Tables/index.html)
+
 ## Assignments
 
 ### Assignment 1
