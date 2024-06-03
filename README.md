@@ -2,6 +2,8 @@
 
 ## Class Notes
 
+### HTML
+
 [HTML Intro](/Class_Notes/HTML/HTML_Intro/index.html)
 
 [Summer Activities Blog Post](/Class_Notes/HTML/HTML_Intro/blog.html)
@@ -11,6 +13,10 @@
 [HTML Tables](/Class_Notes/HTML/HTML_Tables/index.html)
 
 [My DC Timetable](/Class_Notes/HTML/HTML_Tables/timetable.html)
+
+### CSS
+
+[CSS Intro](/Class_Notes/CSS/CSS_Intro/index.html)
 
 ## Assignments
 
