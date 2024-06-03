@@ -28,7 +28,9 @@
 
 ### Assignment 2
 
-[Assignment 2](Assignments/Assignment_2/index.html)
+[Assignment 2 - Part 1](/Assignments/Assignment_2/Part%201/index.html)
+
+Assignment 2 - Part 2
 
 ### Assignment 3
 
