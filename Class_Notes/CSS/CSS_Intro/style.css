@@ -1,0 +1,46 @@
+/*
+Priority is what helps us to understand which CSS properties will resolve in the case of a conflict
+Highest Priority: Inline styling
+Medium Priority: Internal styling
+Least Priority: External styling
+*/
+/* body {
+    background-color: cadetblue;
+} */
+
+
+/* Using the tag selector */
+/* h1 {
+    border: 3px solid red !important;
+} */
+
+/* The . is how we target elements using their class name. */
+/* .title {
+    border: 3px solid blue;
+} */
+
+/* The # is how we target elements using their id. */
+/* #title {
+    border: 3px solid purple;
+} */
+
+/* In scenarios of conflict, the following hierarchy applies:
+Highest Priority -> Ids
+Medium Priority Classes
+Low Pri
+
+/* div {} */
+div#parent-container {
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 300px;
+    padding: 3  0px;
+    border-radius: 20px;
+    /* margin-top: 100px;
+    margin-left: 100px; */
+    /* width: 100px */
+}
+div.child-container {
+    border: 2px solid red;
+    display: block;
+}
