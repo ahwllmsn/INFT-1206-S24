@@ -1,3 +1,37 @@
-body { 
-    background-color: red;
+nav {
+    border: 1px solid blue;
+    display: flex;
+}
+
+ul {
+    margin: 0;
+}
+
+/* When hovering over left nav bar, show underline on text.*/
+.left-nav-ul > li:hover {
+    text-decoration: underline;
+}
+
+.left-nav-ul {
+    border: 1px solid red;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 12%;
+}
+
+.right-nav-ul {
+    border: 1px solid red;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20%;
+}
+
+#microsoft-logo {
+    width: auto;
+    height: 30px;
 }
