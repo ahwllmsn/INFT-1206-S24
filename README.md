@@ -18,6 +18,8 @@
 
 [CSS Intro](/Class_Notes/CSS/CSS_Intro/index.html)
 
+[Microsoft Clone](/Class_Notes/CSS/Microsoft_Clone/index.html)
+
 ## Assignments
 
 ### Assignment 1
