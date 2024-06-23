@@ -16,4 +16,5 @@ div {
     border-radius: 5px;
     border: 1px solid #533747;
 
-}
+    background-image: linear-gradient(to bottom right, rgba(0,0,0,0), rgba(0,0,0,0.2) 30% ,rgba(0,0,0,0.2));
+}   
