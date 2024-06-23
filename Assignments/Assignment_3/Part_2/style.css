@@ -5,13 +5,15 @@ html {
   /* Your CSS below here */
 div {
     width: 200px;
-    height: 150px;
+    height: 100px;
     align-items: center;
-    border: 1px solid red;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 70px;
     font-size: 1.25em; /* First I tested what 18px font looked like and I adjusted the rems value until it looked similar.*/
     background-color: #5f506b;
     color: #BBBCC9;
     text-shadow: 2px 1px black;
+    border-radius: 5px;
+    border: 1px solid #533747;
+
 }
