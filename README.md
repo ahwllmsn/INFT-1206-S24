@@ -40,7 +40,7 @@
 
 [Assignment 3 - Part 2](/Assignments/Assignment_3/Part_2/index.html)
 
-Assignment 3 - Part 3
+[Assignment 3 - Part 3](/Assignments/Assignment_3/Part_3/index.html)
 
 Assignment 3 - Part 4
 
