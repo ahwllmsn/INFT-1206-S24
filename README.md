@@ -36,7 +36,13 @@
 
 ### Assignment 3
 
-[Assignment 3](Assignments/Assignment_3/index.html)
+[Assignment 3 - Part 1](Assignments/Assignment_3/Part_1/index.html)
+
+Assignment 3 - Part 2
+
+Assignment 3 - Part 3
+
+Assignment 3 - Part 4
 
 ### Assignment 4
 
