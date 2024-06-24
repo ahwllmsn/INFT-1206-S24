@@ -2,8 +2,6 @@
 
 * {
     box-sizing: border-box;
-    font-family: "Lora";
-    font-size: 10px;
   }
   
   body {
@@ -59,6 +57,11 @@
   }
 
   /* General Text Styling */
+
+  * {
+    font-family: "Lora";
+    font-size: 10px;
+  }
 
   h1, h2 {
     font-family: "Roboto-Slab";
@@ -126,3 +129,27 @@
     background-size: 100%;
     background-image: url(./external-link-icon.png);
   }
+
+  /* Navigation Menu */
+ nav li{
+  border: 2.5px solid #a66;
+  list-style-type: none;
+  padding: 10px 0px;
+  text-align: center;
+  margin: 10px;
+ }
+
+ nav a:link {
+  outline: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+ }
+
+ nav a:hover, nav a:focus {
+  color: #BE8989;
+ }
+
+ nav a:active {
+  font-weight: lighter;
+ }
