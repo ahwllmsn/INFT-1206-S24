@@ -46,6 +46,8 @@
   
   /* WRITE YOUR CODE BELOW HERE */
 
+  /* Fonts */
+
   @font-face {
     font-family: "Lora";
     src: url(./Lora-VariableFont_wght.ttf);
@@ -55,6 +57,8 @@
     font-family: "Roboto-Slab";
     src: url(./RobotoSlab-VariableFont_wght.ttf);
   }
+
+  /* General Text Styling */
 
   h1, h2 {
     font-family: "Roboto-Slab";
@@ -70,15 +74,23 @@
     font-size: 16px;
   }
 
-  p, li {
+  p, li, ol {
     line-height: 1.5;
     letter-spacing: 0.25px;
     word-spacing: 0.4px;
   }
 
+  /* Lists */
+
+  li, ol {
+    list-style-type: square;
+  }
+
   h2 + p {
     text-indent: 8px;
   }
+
+  /* Links*/
 
   a:link, a:visited {
     text-decoration: underline;
