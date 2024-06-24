@@ -21,6 +21,8 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
+    display:grid;
+    grid-template-columns: 3fr 1fr;
   }
   
   nav {
@@ -45,6 +47,15 @@ body {
     text-decoration: none;
     padding: .5em 1em;
   }
+
+  article img{
+    float: left;
+    margin-right: 1em;
+  }
+
+  article p {
+    margin-right: 1em;
+  }
   
   .photos {
     list-style: none;
@@ -52,7 +63,8 @@ body {
     padding: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1px;
+    grid-gap: 1px
+  }
 
   .feature {
       width: 200px;
