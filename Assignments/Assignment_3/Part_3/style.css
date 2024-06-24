@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     font-family: "Lora";
+    font-size: 10px;
   }
   
   body {
@@ -57,4 +58,24 @@
 
   h1, h2 {
     font-family: "Roboto-Slab";
+    letter-spacing: 0.5px;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p, li {
+    line-height: 1.5;
+    letter-spacing: 0.25px;
+    word-spacing: 0.4px;
+  }
+
+  h2 + p {
+    text-indent: 8px;
   }
