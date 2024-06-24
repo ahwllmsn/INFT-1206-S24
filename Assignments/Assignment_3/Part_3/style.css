@@ -79,3 +79,38 @@
   h2 + p {
     text-indent: 8px;
   }
+
+  a:link, a:visited {
+    text-decoration: underline;
+  }
+  
+  a:link {
+    color: #a66;
+  }
+
+  a:visited {
+    color: #693A3A;
+  }
+
+  a:hover, a:focus {
+    color: #BE8989;
+    text-decoration: none;
+  }
+
+  a {
+    outline: none;
+  }
+
+  a:active {
+    font-weight: bolder;
+  }
+
+  a[href^="https"]::after {
+    content: "";
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: 0.2em;
+    background-size: 100%;
+    background-image: url(./external-link-icon.png);
+  }
