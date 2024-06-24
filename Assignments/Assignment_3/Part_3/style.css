@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: "Lora";
   }
   
   body {
@@ -43,3 +44,17 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+
+  @font-face {
+    font-family: "Lora";
+    src: url(./Lora-VariableFont_wght.ttf);
+  }
+
+  @font-face {
+    font-family: "Roboto-Slab";
+    src: url(./RobotoSlab-VariableFont_wght.ttf);
+  }
+
+  h1, h2 {
+    font-family: "Roboto-Slab";
+  }
