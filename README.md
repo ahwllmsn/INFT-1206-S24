@@ -20,6 +20,10 @@
 
 [Microsoft Clone](/Class_Notes/CSS/Microsoft_Clone/index.html)
 
+### JavaScript
+
+[Intro to JavaScript](./Class_Notes/JavaScript/Intro-to-JavaScript/index.html)
+
 ## Assignments
 
 ### Assignment 1
