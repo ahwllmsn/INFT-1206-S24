@@ -24,7 +24,7 @@
 
 [Intro to JavaScript](./Class_Notes/JavaScript/Intro-to-JavaScript/index.html)
 
-[Arrays, Objects & Functions](./Class_Notes/JavaScript/Arrays-Objects-Functions/index.html)
+[Arrays, Objects, and Functions](./Class_Notes/JavaScript/Arrays-Objects-Functions/index.html)
 
 ## Assignments
 
