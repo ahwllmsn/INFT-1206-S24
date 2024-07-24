@@ -28,6 +28,8 @@
 
 [Functions & Loops](./Class_Notes/JavaScript/Functions-Loops/index.html)
 
+[Array Iterator Methods](./Class_Notes/JavaScript/Array-Iterator-Methods/index.html)
+
 ## Assignments
 
 ### Assignment 1
