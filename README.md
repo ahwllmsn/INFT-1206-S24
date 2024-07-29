@@ -60,11 +60,11 @@
 
 [Assignment 4 - Part 1](/Assignments/Assignment_4/Part_1/index.html)
 
-[Assignment 4 - Part 2]
+Assignment 4 - Part 2
 
-[Assignment 4 - Part 3]
+Assignment 4 - Part 3
 
-[Assignment 4 - Part 4]
+Assignment 4 - Part 4
 
 ### Assignment 5
 
