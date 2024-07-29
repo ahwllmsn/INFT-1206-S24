@@ -19,7 +19,7 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
-
+    newStory.replaceAll('Bob', name)
   }
 
   if(document.getElementById("uk").checked) {
@@ -27,10 +27,16 @@ function result() {
     const temperature =  Math.round(94);
 
   }
+
   let newStory = storyText;
   let xItem = randomValueFromArray(insertX);
   let yItem = randomValueFromArray(insertY);
   let zItem = randomValueFromArray(insertZ);
+
+  newStory.replaceAll(':insertx:', xItem);
+  newStory.replaceAll(':inserty:', yItem);
+  newStory.replaceAll(':insertz:', zItem);
+
 
   story.textContent = ;
   story.style.visibility = 'visible';
