@@ -30,6 +30,8 @@
 
 [Array Iterator Methods](./Class_Notes/JavaScript/Array-Iterator-Methods/index.html)
 
+[Classes](./Class_Notes/JavaScript/Classes/index.html)
+
 ## Assignments
 
 ### Assignment 1
