@@ -58,7 +58,7 @@
 
 ### Assignment 4
 
-[Assignment 4 - Part 1]
+[Assignment 4 - Part 1](/Assignments/Assignment_4/Part_1/index.html)
 
 [Assignment 4 - Part 2]
 
