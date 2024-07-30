@@ -64,7 +64,7 @@
 
 [Assignment 4 - Part 3](/Assignments/Assignment_4/Part_3/index.html)
 
-Assignment 4 - Part 4
+[Assignment 4 - Part 4](/Assignments/Assignment_4/Part_4/index-finished.html)
 
 ### Assignment 5
 
