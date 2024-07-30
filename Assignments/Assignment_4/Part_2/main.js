@@ -18,19 +18,25 @@ const altText = {
 
 /* Looping through images */
 for (let image of imageFileNames) {
-    let thumbnailImage = document.createElement("img");
+    const thumbnailImage = document.createElement("img");
     thumbnailImage.setAttribute('src', `images/${image}`);
     thumbnailImage.setAttribute('alt', altText[image]);
-    thumbBar.append(thumbnailImage);
+    thumbBar.appendChild(thumbnailImage);
     thumbBar.addEventListener('click', (e) => {
         displayedImage.setAttribute('src', e.target.src);
         displayedImage.setAttribute('alt', e.target.alt);
     });
 }
 
-const newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
-thumbBar.appendChild(newImage);
-
 /* Wiring up the Darken/Lighten button */
+btn.addEventListener('click', (e) => {
+    if (btn.getAttribute('class') == 'dark') {
+        btn.textContent = 'Lighten';
+        btn.setAttribute('class', 'light');
+        overlay.style.backgroundColor = "rgb(0 0 0 / 50%)";
+    } else {
+        btn.textContent = 'Darken';
+        btn.setAttribute('class', 'dark');
+        overlay.style.backgroundColor = "rgb(0 0 0 / 0%)";
+    }
+})
