@@ -81,6 +81,8 @@ class Ball extends Shape{
 class EvilCircle extends Shape {
     constructor(x, y) {
         super(x, y, 20, 20);
+        this.color = 'white';
+        this.size = 10;
         window.addEventListener("keydown", (e) => {
             switch (e.key) {
               case "a":
@@ -141,6 +143,7 @@ class EvilCircle extends Shape {
 }
 
 const balls = [];
+const evil = new EvilCircle(100, 100);
 
 while (balls.length < 25) {
     const size = random(10, 20);
@@ -159,14 +162,23 @@ while (balls.length < 25) {
 }
 
 function loop() {
+
     ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
     ctx.fillRect(0, 0, width, height);
 
     for (const ball of balls) {
-        ball.draw();
-        ball.update();
-        ball.collisionDetect();
+        if (ball.exists) {
+            ball.draw();
+            ball.update();
+            ball.collisionDetect();
+        }
+
     }
+        evil.draw();
+        evil.checkBounds();
+        evil.collisionDetect();
+
+
 
     requestAnimationFrame(loop);
 }
