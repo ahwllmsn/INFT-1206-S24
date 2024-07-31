@@ -32,6 +32,8 @@
 
 [Classes](./Class_Notes/JavaScript/Classes/index.html)
 
+[DOM and Forms](./Class_Notes/JavaScript/DOM-Forms/index.html)
+
 ## Assignments
 
 ### Assignment 1
